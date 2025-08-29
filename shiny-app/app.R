@@ -1,7 +1,6 @@
 library(shiny)
 library(bslib)
 library(shinycssloaders) # for loading screens
-library(latex2exp) # for latex within graphs
 library(colourpicker)
 
 # Globally setting the spinner colour and type (will change)
