@@ -9,7 +9,7 @@ sim_inputs <- div(
                  value = 1),
 
     numericInput(inputId = "sample_size",
-                 label = 'Insert the Monte Carlo sample size',
+                 label = 'Insert the Monte Carlo sample size.',
                  value = 10000),
 
     textInput(inputId = "mean_vector",
@@ -37,12 +37,12 @@ sim_graph_inputs <- div(
     pch_types,
 
     selectInput(inputId = "scat_pch",
-                label = 'Select the point symbol for the scatterplot',
+                label = 'Select the point symbol for the scatterplot.',
                 choices = 0:25,
                 selected = 1),
 
     colourInput(inputId = "scat_col",
-                label = 'Input colour for the point symbol',
+                label = 'Input colour for the point symbol.',
                 value =  "#5b10a7"),
 
     conditionalPanel(
@@ -89,12 +89,12 @@ sim_graph_inputs <- div(
     pch_types,
 
     selectInput(inputId = "qqplot_pch",
-                label = 'Select the point symbol for the scatterplot',
+                label = 'Select the point symbol for the scatterplot.',
                 choices = 0:25,
                 selected = 1),
 
     colourInput(inputId = "qqplot_col",
-                label = 'Input colour for the point symbol',
+                label = 'Input colour for the point symbol.',
                 value = "#3333FF"),
 
     conditionalPanel(
