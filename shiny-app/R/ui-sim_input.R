@@ -1,3 +1,5 @@
+library(colourpicker)
+
 sim_inputs <- div(
   conditionalPanel(
     condition = "input.modify_type == 'simulation'",

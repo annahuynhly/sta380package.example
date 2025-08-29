@@ -1,7 +1,6 @@
 library(shiny)
 library(bslib)
 library(shinycssloaders) # for loading screens
-library(colourpicker)
 
 # Globally setting the spinner colour and type (will change)
 options(spinner.type = 8, spinner.color = "#6990EE")
