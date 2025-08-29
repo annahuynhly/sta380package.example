@@ -24,7 +24,7 @@ sim_inputs <- div(
 
     sliderInput(inputId = "rho",
                 label = "Insert $\\rho$, the correlation coefficient",
-                min = 0, max = 1, value = 0.7),
+                min = -1, max = 1, value = 0.7),
   ), # End conditionalPanel
 )
 
